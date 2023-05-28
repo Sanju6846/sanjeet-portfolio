@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 49);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(53, 53, 118);
+}
+
+.rightsection {
+    margin: 10px 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+.rightsection ul li a:hover {
+    color: rgb(65, 65, 205);
+}
+
+.leftsection {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Domine', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Secular One', sans-serif;
+}
+
+.leftsection img {
+    height: 2.5em;
+    width: 2.5em;
+    display: inline;
+    margin: -23px 0px;
+}
+
+.name {
+    color: rgb(87, 87, 246);
+}
+
+.rightsection ul li {
+    display: inline;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.rightsection ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+}
+
+.left img {
+    height: 450px;
+    width: 450px;
+}
+
+.right {
+    font-size: 3rem;
+    font-family: 'Domine', serif;
+    margin: 120px 0;
+}
+
+#element {
+    color: rgb(87, 87, 246);
+}
+
+hr {
+    height: 0.5px;
+    color: rgb(60, 60, 241);
+    margin: 0px 60px;
+}
+
+.secondsection {
+    margin: 10px 150px;
+    font-family: 'Libre Baskerville', serif;
+    height: 60vh;
+}
+
+.box {
+    background-color: white;
+    height: 2px;
+    margin: 60px 0;
+    width: 86vw;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 80px;
+    width: 1px;
+    background: white;
+    margin: 0px 100px;
+    display: block;
+}
+
+
+div.item {
+    font-size: 18px;
+    margin-left: 11px;
+    padding: 5px 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+div.image img {
+    height: 55vh;
+    width: 50vh;
+    margin-left: 650px;
+    margin-top: -200px;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(249, 249, 251, 0.8);
+    border: 1px solid rgb(31 5 251 / 80%);
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+div.grid-item img {
+    margin-left: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+
+div.grid-item img:hover {
+    transform: scale(1.1);
+}
+
+.photo {
+    margin: 15px 0px;
+    color: rgb(87, 87, 246);
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.ftr {
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+
+.ftr .footerbuttom p {
+    margin: 2px 0;
+    font-family: 'Secular One', sans-serif;
+}
+/* Here to start about page styling */
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.detail{
+    display: flex;
+    font-size: 1.02rem;
+    font-family: 'Secular One', sans-serif;
+}
+h2{
+    font-size: 3rem;
+    margin: auto;
+}
+.names{
+    font-size: 2.2rem;
+}
+.button{
+    height: 30px;
+    width: 140px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+}
+.button .downloadcv a{
+    text-decoration: none;
+}
+.images{
+    width: 40%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: auto;
+    transform: translateX(-50%);
+}
+.button:hover{
+    color: rgb(160, 248, 141);
+    background-color: #2196F3;
+    height: 32px;
+    width: 142px;
+}
+/* contact form CSS*/
+h1.Cform{
+    margin: 40px 550px;
+}
+form{
+   margin: 40px 450px;
+}
+form div{
+    margin-bottom: 1em;
+}
+div.submit input{
+    margin-left: 165px;
+    cursor: pointer;
+}
+label.field{
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 150px;
+    text-align: right;
+}
+label.required{
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+.field{
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+.Submit{
+    margin: 8px 160px;
+    border-radius: 2px;
+    
+}
+.Submit input:hover{
+    background-color: #2196F3;
+    color: blueviolet;
+    height: 25px;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Services and project page CSS*/
+.service img{
+    display: flex;
+    /* margin: 150px 550px; */
+    /* justify-content: center; */
+    margin: 180px auto;
+}
