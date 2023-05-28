@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About || Sanjeet kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Libre+Baskerville:wght@400;700&family=Pacifico&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="sanju.js">
+    <link rel="stylesheet" href="home.html">
+    <link rel="stylesheet" href="About.html">
+    <link rel="stylesheet" href="services.html">
+    <link rel="stylesheet" href="project.html">
+    <link rel="stylesheet" href="contact.html">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="leftsection">
+                <img src="logo.png" alt="">
+                Sanjeet's Portfolio
+            </div>
+            <div class="rightsection">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1 class="Cform" >Contact Form</h1>
+    <form action="contact/" method="post" enctype="multipart/form-data">
+        <div>
+            <label class="required field" for="name">Name</label>
+            <input id="name" type="text">
+        </div>
+        <div>
+            <label class="required field" for="Email">Email id</label>
+            <input id="Email" type="email">
+        </div>
+        <div>
+            <label class="required field" for="Email">Mobile number</label>
+            <input id="Mobile" type="phone">
+        </div>
+        <div>
+            <label class="required field" for="Gender">Gender</label>
+            <label > <input type="radio" name="Grnder" value="male">Male</label>
+            <label > <input type="radio" name="Grnder" value="Female">Female</label>
+        </div>
+        <div>
+            <label class="required field">Contact Reason</label>
+            <select id="reason">
+                <option value="Reason">Slect Reason</option>
+                <option value="project">Project</option>
+                <option value="general">General purpose</option>
+                <option value="work">Work with me</option>
+                <option value="hire">Hire me</option>
+                <option value="hire">Others</option>
+            </select>
+        </div>
+        <div>
+            <label class="required field">Country</label>
+            <label><input type="checkbox" name="country" value="ind">India</label>
+            <label><input type="checkbox" name="country" value="Oth">Others</label>
+        </div>
+        <div>
+            <label class="required field" for="report">Report</label>
+            <input type="file" id="report">
+        </div>
+        <div>
+            <label class="field" for="description">Description</label>
+            <textarea id="description" cols="40" rows="6"></textarea>
+        </div>
+        <div class="Submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
